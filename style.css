@@ -1,3 +1,126 @@
-.world {
-    color: blue;
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4mm;
+    background-color: #191724;
+    color: #e0def4;
+    -moz-font-feature-settings: normal;
 }
+
+#titlebar {
+    display: flex; /* Flexbox verwenden, um Elemente nebeneinander anzuordnen */
+    align-items: center; /* Elemente in der Mitte vertikal ausrichten */
+    background-color: #eb6f92; /* rose-pine surface */
+    color: white; /* text color */ 
+    padding: 5mm; /* ränder */
+}
+
+#welcome_homepage_text {
+    size: 30mm;
+}
+
+#bottombar {
+    display: flex; /* Flexbox verwenden, um Elemente nebeneinander anzuordnen */
+    align-items: center; /* Elemente in der Mitte vertikal ausrichten */
+    background-color: #26233a; /* rose-pine surface */
+    color: white; /* text color */ 
+    padding: 5mm; /* ränder */
+    padding-bottom: 20mm;
+}
+
+#ausbildung_text_big {
+    padding-left: 20mm;
+    padding-top: 20mm;
+    padding-right: 20mm;
+    font-family: 'Open-Sans' serif;
+    font-size: 15mm;
+    background-color: #b4637a;
+}
+
+#ausbildung_text_small{
+    padding: 20mm;
+    font-family: 'Open-Sans' serif;
+    font-size: 7mm;
+    background-color: #b4637a;
+}
+
+#ausbildung_text_p1{
+    padding: 20mm;
+    font-family: 'Open-Sans' serif;
+    font-size: 15mm;
+    background-color: #21202e;
+
+}
+
+#ausbildung_text_p2{
+    padding: 20mm;
+    font-family: 'Open-Sans' serif;
+    font-size: 7mm;
+
+    display: block;
+    position: relative;
+    margin-bottom: 2em;
+    clear: both;
+}
+
+#latest_model_text {
+    padding: 10mm;
+    font-family: 'Open-Sans' serif;
+    font-size: 9mm;
+    background-color: #26233a;
+}
+
+#slogan {
+    padding-left: 3mm;
+    font-family: 'Open-Sans' serif;
+    font-size: 10mm
+}
+
+#imageContainer {
+    width: 300;
+    height: 300;
+}
+
+/* Image Boxes */
+
+#audi1 {
+    padding: 10mm;
+    color: #e0def4;
+    background-color: #26233a; /* rose-pine overlay */
+}
+
+#audi2 {
+    padding: 10mm;
+    color: #e0def4;
+    background-color: #26233a; /* rose-pine overlay */
+}
+
+#audi3 {
+    padding: 10mm;
+    color: #e0def4;
+    background-color: #26233a; /* rose-pine overlay */
+}
+
+a:link {
+    color: #9ccfd8;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #31748f;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c4a7e7;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #f6c177;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
