@@ -8,10 +8,11 @@ body {
 
 #titlebar {
     display: flex; /* Flexbox verwenden, um Elemente nebeneinander anzuordnen */
-    align-items: center; /* Elemente in der Mitte vertikal ausrichten */
+    align-items: center; 
     background-color: #eb6f92; /* rose-pine surface */
-    color: white; /* text color */ 
+    color: white; 
     padding: 5mm; /* ränder */
+    padding-left: 8mm;
 }
 
 #welcome_homepage_text {
@@ -47,6 +48,7 @@ body {
     padding: 20mm;
     font-family: 'Open-Sans' serif;
     font-size: 15mm;
+    text-align: center;
     background-color: #21202e;
 
 }
@@ -55,11 +57,23 @@ body {
     padding: 20mm;
     font-family: 'Open-Sans' serif;
     font-size: 7mm;
-
-    display: block;
-    position: relative;
+    text-align: left; 
     margin-bottom: 2em;
+    margin-right: 20mm;
     clear: both;
+    width: 500px;
+    word-wrap: break-word;
+}
+
+#video {
+    position:relative;
+    margin-left: 300px;
+}
+
+#ausbildung_image_p1 {
+    position: absolute;
+    right: 10mm;
+    margin-top: -420px;
 }
 
 #latest_model_text {
@@ -80,24 +94,63 @@ body {
     height: 300;
 }
 
+/*             */
 /* Image Boxes */
+/*             */
 
 #audi1 {
-    padding: 10mm;
+    padding: 5mm;
+    padding-left: 10mm;
     color: #e0def4;
     background-color: #26233a; /* rose-pine overlay */
 }
 
+#audi1_img {
+    padding-top: 3mm;
+}
 #audi2 {
-    padding: 10mm;
+    padding: 5mm;
+    padding-left: 10mm;
     color: #e0def4;
     background-color: #26233a; /* rose-pine overlay */
 }
 
+#audi2_img {
+    padding-top: 3mm;
+}
 #audi3 {
-    padding: 10mm;
+    padding: 5mm;
+    padding-left: 10mm;
     color: #e0def4;
     background-color: #26233a; /* rose-pine overlay */
+}
+#audi3_text {
+    padding: 5mm;
+    color: #e0def4;
+    background-color: #26233a; /* rose-pine overlay */
+}
+#audi3_img {
+    padding-top: 3mm;
+}
+#audi4 {
+    padding: 5mm;
+    padding-left: 10mm;
+    color: #e0def4;
+    background-color: #26233a; /* rose-pine overlay */
+}
+
+#audi4_img {
+    padding-top: 3mm;
+}
+#audi5 {
+    padding: 5mm;
+    padding-left: 10mm;
+    color: #e0def4;
+    background-color: #26233a; /* rose-pine overlay */
+}
+
+#audi5_img {
+    padding-top: 3mm;
 }
 
 a:link {
